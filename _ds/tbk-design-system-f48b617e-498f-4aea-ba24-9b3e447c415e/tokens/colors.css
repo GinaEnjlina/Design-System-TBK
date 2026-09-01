@@ -1,0 +1,21 @@
+:root{
+/* primitive — TBK Classic Blue (brand guideline, do not edit) */
+--tbk-50:#D8E1F0;--tbk-100:#C9D5EA;--tbk-200:#ACBFDF;--tbk-300:#8EA8D4;--tbk-400:#7191C8;--tbk-500:#537ABD;--tbk-600:#4066A7;--tbk-700:#35548A;--tbk-800:#253B61;--tbk-900:#162339;--tbk-950:#0E1625;
+/* primitive — neutral (slate) */
+--slate-50:#f8fafc;--slate-100:#f1f5f9;--slate-200:#e2e8f0;--slate-300:#cbd5e1;--slate-400:#94a3b8;--slate-500:#64748b;--slate-600:#475569;--slate-700:#334155;--slate-800:#1e293b;--slate-900:#0f172a;--slate-950:#020617;
+/* semantic — shadcn contract */
+--background:#ffffff;--foreground:var(--slate-950);
+--card:#ffffff;--card-foreground:var(--slate-950);
+--popover:#ffffff;--popover-foreground:var(--slate-950);
+--primary:var(--tbk-700);--primary-foreground:#ffffff;
+--secondary:var(--slate-100);--secondary-foreground:var(--slate-900);
+--muted:var(--slate-100);--muted-foreground:var(--slate-500);
+--accent:var(--tbk-50);--accent-foreground:var(--tbk-800);
+--destructive:#B91C1C;--destructive-foreground:#ffffff;
+--border:var(--slate-200);--input:var(--slate-200);--ring:var(--tbk-700);
+/* semantic — added (not in shadcn defaults) */
+--success:#ECFDF5;--success-border:#A7F3D0;--success-content:#047857;--success-foreground:#ffffff;--success-solid:#047857;
+--warning:#FFFBEB;--warning-border:#FDE68A;--warning-content:#92400E;--warning-foreground:#ffffff;--warning-solid:#92400E;
+--info:var(--tbk-50);--info-border:var(--tbk-200);--info-content:var(--tbk-700);--info-foreground:#ffffff;--info-solid:var(--tbk-700);
+--danger:#FEF2F2;--danger-border:#FECACA;--danger-content:#B91C1C;--danger-foreground:#ffffff;
+}

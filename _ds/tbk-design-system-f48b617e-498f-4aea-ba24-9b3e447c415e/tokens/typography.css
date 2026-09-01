@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&family=Geist+Mono:wght@400;500;600&display=swap');
+:root{
+--font-sans:'Geist',ui-sans-serif,system-ui,-apple-system,sans-serif;
+--font-mono:'Geist Mono',ui-monospace,'SF Mono',monospace;
+--text-xs:0.75rem;--text-sm:0.8125rem;--text-base:0.875rem;--text-lg:1rem;--text-xl:1.125rem;--text-2xl:1.5rem;--text-3xl:1.875rem;--text-4xl:2.5rem;
+--leading-tight:1.2;--leading-normal:1.5;--leading-relaxed:1.65;
+}
+body{font-family:var(--font-sans);}
