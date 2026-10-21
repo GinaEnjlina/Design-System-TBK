@@ -236,15 +236,35 @@
         <div style="display:flex;flex-direction:column;gap:24px;margin:24px 0 32px">
           <div style="position:relative;border:1px solid var(--border);border-radius:var(--radius-lg);padding:40px;display:flex;justify-content:center;align-items:center">
             <img src="assets/logo-full.svg" alt="Logotype TBK" style="height:56px">
-            <x-import component-from-global-scope="TBKDesignSystem_f48b61.Button" variant="outline" size="icon" onClick="{{ copyLogoFull }}" hint-size="32px,32px" style="position:absolute;top:12px;right:12px">
-              <x-import component-from-global-scope="TBKDesignSystem_f48b61.Icon" name="{{ logoFullCopyIcon }}" size="16" hint-size="16px,16px"></x-import>
-            </x-import>
+            <div style="position:absolute;top:12px;right:12px;display:flex;gap:6px;align-items:center">
+              <x-import component-from-global-scope="TBKDesignSystem_f48b61.Button" variant="outline" size="sm" onClick="{{ downloadLogoFullSvg }}" hint-size="auto,32px" style="gap:6px">
+                <x-import component-from-global-scope="TBKDesignSystem_f48b61.Icon" name="download" size="14" hint-size="14px,14px"></x-import>
+                <span>SVG</span>
+              </x-import>
+              <x-import component-from-global-scope="TBKDesignSystem_f48b61.Button" variant="outline" size="sm" onClick="{{ downloadLogoFullPng }}" hint-size="auto,32px" style="gap:6px">
+                <x-import component-from-global-scope="TBKDesignSystem_f48b61.Icon" name="download" size="14" hint-size="14px,14px"></x-import>
+                <span>PNG</span>
+              </x-import>
+              <x-import component-from-global-scope="TBKDesignSystem_f48b61.Button" variant="outline" size="icon" onClick="{{ copyLogoFull }}" hint-size="32px,32px">
+                <x-import component-from-global-scope="TBKDesignSystem_f48b61.Icon" name="{{ logoFullCopyIcon }}" size="16" hint-size="16px,16px"></x-import>
+              </x-import>
+            </div>
           </div>
           <div style="position:relative;border:1px solid var(--border);border-radius:var(--radius-lg);padding:40px;display:flex;justify-content:center;align-items:center">
             <img src="assets/logomark.svg" alt="Logomark TBK" style="height:56px">
-            <x-import component-from-global-scope="TBKDesignSystem_f48b61.Button" variant="outline" size="icon" onClick="{{ copyLogomark }}" hint-size="32px,32px" style="position:absolute;top:12px;right:12px">
-              <x-import component-from-global-scope="TBKDesignSystem_f48b61.Icon" name="{{ logomarkCopyIcon }}" size="16" hint-size="16px,16px"></x-import>
-            </x-import>
+            <div style="position:absolute;top:12px;right:12px;display:flex;gap:6px;align-items:center">
+              <x-import component-from-global-scope="TBKDesignSystem_f48b61.Button" variant="outline" size="sm" onClick="{{ downloadLogomarkSvg }}" hint-size="auto,32px" style="gap:6px">
+                <x-import component-from-global-scope="TBKDesignSystem_f48b61.Icon" name="download" size="14" hint-size="14px,14px"></x-import>
+                <span>SVG</span>
+              </x-import>
+              <x-import component-from-global-scope="TBKDesignSystem_f48b61.Button" variant="outline" size="sm" onClick="{{ downloadLogomarkPng }}" hint-size="auto,32px" style="gap:6px">
+                <x-import component-from-global-scope="TBKDesignSystem_f48b61.Icon" name="download" size="14" hint-size="14px,14px"></x-import>
+                <span>PNG</span>
+              </x-import>
+              <x-import component-from-global-scope="TBKDesignSystem_f48b61.Button" variant="outline" size="icon" onClick="{{ copyLogomark }}" hint-size="32px,32px">
+                <x-import component-from-global-scope="TBKDesignSystem_f48b61.Icon" name="{{ logomarkCopyIcon }}" size="16" hint-size="16px,16px"></x-import>
+              </x-import>
+            </div>
           </div>
         </div>
         <div style="font-size:var(--text-lg);font-weight:600;margin-bottom:12px">Aturan pakai</div>
@@ -306,16 +326,36 @@
           <div style="position:relative;border:1px solid var(--border);border-radius:var(--radius-lg);padding:32px;display:flex;flex-direction:column;align-items:center;gap:12px;background:var(--slate-950)">
             <img src="assets/logomark-white.svg" alt="Logomark TBK putih" style="height:44px">
             <div style="font-size:var(--text-xs);color:var(--slate-300)">Putih — untuk latar gelap/foto</div>
-            <x-import component-from-global-scope="TBKDesignSystem_f48b61.Button" variant="outline" size="icon" onClick="{{ copyLogomarkWhite }}" hint-size="32px,32px" style="position:absolute;top:12px;right:12px">
-              <x-import component-from-global-scope="TBKDesignSystem_f48b61.Icon" name="{{ logomarkWhiteCopyIcon }}" size="16" hint-size="16px,16px"></x-import>
-            </x-import>
+            <div style="position:absolute;top:12px;right:12px;display:flex;gap:6px;align-items:center">
+              <x-import component-from-global-scope="TBKDesignSystem_f48b61.Button" variant="outline" size="sm" onClick="{{ downloadLogomarkWhiteSvg }}" hint-size="auto,32px" style="gap:6px">
+                <x-import component-from-global-scope="TBKDesignSystem_f48b61.Icon" name="download" size="14" hint-size="14px,14px"></x-import>
+                <span>SVG</span>
+              </x-import>
+              <x-import component-from-global-scope="TBKDesignSystem_f48b61.Button" variant="outline" size="sm" onClick="{{ downloadLogomarkWhitePng }}" hint-size="auto,32px" style="gap:6px">
+                <x-import component-from-global-scope="TBKDesignSystem_f48b61.Icon" name="download" size="14" hint-size="14px,14px"></x-import>
+                <span>PNG</span>
+              </x-import>
+              <x-import component-from-global-scope="TBKDesignSystem_f48b61.Button" variant="outline" size="icon" onClick="{{ copyLogomarkWhite }}" hint-size="32px,32px">
+                <x-import component-from-global-scope="TBKDesignSystem_f48b61.Icon" name="{{ logomarkWhiteCopyIcon }}" size="16" hint-size="16px,16px"></x-import>
+              </x-import>
+            </div>
           </div>
           <div style="position:relative;border:1px solid var(--border);border-radius:var(--radius-lg);padding:32px;display:flex;flex-direction:column;align-items:center;gap:12px;background:#ffffff">
             <img src="assets/logomark-black.svg" alt="Logomark TBK hitam" style="height:44px">
             <div style="font-size:var(--text-xs);color:var(--muted-foreground)">Hitam — untuk cetak satu warna</div>
-            <x-import component-from-global-scope="TBKDesignSystem_f48b61.Button" variant="outline" size="icon" onClick="{{ copyLogomarkBlack }}" hint-size="32px,32px" style="position:absolute;top:12px;right:12px">
-              <x-import component-from-global-scope="TBKDesignSystem_f48b61.Icon" name="{{ logomarkBlackCopyIcon }}" size="16" hint-size="16px,16px"></x-import>
-            </x-import>
+            <div style="position:absolute;top:12px;right:12px;display:flex;gap:6px;align-items:center">
+              <x-import component-from-global-scope="TBKDesignSystem_f48b61.Button" variant="outline" size="sm" onClick="{{ downloadLogomarkBlackSvg }}" hint-size="auto,32px" style="gap:6px">
+                <x-import component-from-global-scope="TBKDesignSystem_f48b61.Icon" name="download" size="14" hint-size="14px,14px"></x-import>
+                <span>SVG</span>
+              </x-import>
+              <x-import component-from-global-scope="TBKDesignSystem_f48b61.Button" variant="outline" size="sm" onClick="{{ downloadLogomarkBlackPng }}" hint-size="auto,32px" style="gap:6px">
+                <x-import component-from-global-scope="TBKDesignSystem_f48b61.Icon" name="download" size="14" hint-size="14px,14px"></x-import>
+                <span>PNG</span>
+              </x-import>
+              <x-import component-from-global-scope="TBKDesignSystem_f48b61.Button" variant="outline" size="icon" onClick="{{ copyLogomarkBlack }}" hint-size="32px,32px">
+                <x-import component-from-global-scope="TBKDesignSystem_f48b61.Icon" name="{{ logomarkBlackCopyIcon }}" size="16" hint-size="16px,16px"></x-import>
+              </x-import>
+            </div>
           </div>
         </div>
         <div style="font-size:var(--text-sm);color:var(--muted-foreground);margin-bottom:32px">Warna asli Classic Blue tetap default. Putih/hitam hanya untuk kondisi latar yang membuat versi berwarna tidak cukup kontras.</div>
@@ -436,23 +476,50 @@
 
       <section id="sec-tipografi" data-page-section="tipografi" style="padding-top:8px;margin-bottom:56px;padding-bottom:48px">
         <x-import component-from-global-scope="TBKDesignSystem_f48b61.PageHeader" title="Tipografi" subtitle="Geist Variable untuk UI, Geist Mono untuk angka dan kode." hint-size="auto,auto"></x-import>
-        <div style="display:flex;flex-direction:column;gap:20px;margin:24px 0 32px">
-          <div style="display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid var(--border);padding-bottom:16px"><div style="font-size:2.5rem;font-weight:800;letter-spacing:-0.02em">Desain yang konsisten</div><span style="text-align:right"><span style="display:inline-block;font-family:var(--font-mono);font-size:var(--text-xs);color:var(--foreground);background:var(--secondary);border-radius:var(--radius-sm);padding:1px 6px;margin-right:6px">h1</span><span style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--muted-foreground)">text-4xl · 40px</span></span></div>
-          <div style="display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid var(--border);padding-bottom:16px"><div style="font-size:1.875rem;font-weight:700;letter-spacing:-0.02em">Desain yang konsisten</div><span style="text-align:right"><span style="display:inline-block;font-family:var(--font-mono);font-size:var(--text-xs);color:var(--foreground);background:var(--secondary);border-radius:var(--radius-sm);padding:1px 6px;margin-right:6px">h2</span><span style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--muted-foreground)">text-3xl · 30px</span></span></div>
-          <div style="display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid var(--border);padding-bottom:16px"><div style="font-size:1.5rem;font-weight:600;letter-spacing:-0.01em">Desain yang konsisten — page title</div><span style="text-align:right"><span style="display:inline-block;font-family:var(--font-mono);font-size:var(--text-xs);color:var(--foreground);background:var(--secondary);border-radius:var(--radius-sm);padding:1px 6px;margin-right:6px">h3</span><span style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--muted-foreground)">text-2xl · 24px — font-semibold tracking-tight</span></span></div>
-          <div style="display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid var(--border);padding-bottom:16px"><div style="font-size:1.125rem;font-weight:600">Desain yang konsisten — section title</div><span style="text-align:right"><span style="display:inline-block;font-family:var(--font-mono);font-size:var(--text-xs);color:var(--foreground);background:var(--secondary);border-radius:var(--radius-sm);padding:1px 6px;margin-right:6px">h4</span><span style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--muted-foreground)">text-xl · 18px — font-semibold</span></span></div>
-          <div style="display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid var(--border);padding-bottom:16px"><div style="font-size:1rem">Desain yang konsisten</div><span style="text-align:right"><span style="display:inline-block;font-family:var(--font-mono);font-size:var(--text-xs);color:var(--foreground);background:var(--secondary);border-radius:var(--radius-sm);padding:1px 6px;margin-right:6px">h5 / h6</span><span style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--muted-foreground)">text-lg · 16px</span></span></div>
-          <div style="display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid var(--border);padding-bottom:16px"><div style="font-size:0.875rem">Desain yang konsisten — body</div><span style="text-align:right"><span style="display:inline-block;font-family:var(--font-mono);font-size:var(--text-xs);color:var(--foreground);background:var(--secondary);border-radius:var(--radius-sm);padding:1px 6px;margin-right:6px">p</span><span style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--muted-foreground)">text-base · 14px</span></span></div>
-          <div style="display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid var(--border);padding-bottom:16px"><div style="font-size:0.8125rem;color:var(--muted-foreground)">Desain yang konsisten — secondary</div><span style="text-align:right"><span style="display:inline-block;font-family:var(--font-mono);font-size:var(--text-xs);color:var(--foreground);background:var(--secondary);border-radius:var(--radius-sm);padding:1px 6px;margin-right:6px">span</span><span style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--muted-foreground)">text-sm · 13px — text-muted-foreground</span></span></div>
-          <div style="display:flex;align-items:baseline;justify-content:space-between;padding-bottom:4px"><div style="font-size:0.75rem;color:var(--muted-foreground)">Desain yang konsisten — caption</div><span style="text-align:right"><span style="display:inline-block;font-family:var(--font-mono);font-size:var(--text-xs);color:var(--foreground);background:var(--secondary);border-radius:var(--radius-sm);padding:1px 6px;margin-right:6px">small</span><span style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--muted-foreground)">text-xs · 12px</span></span></div>
-        </div>
-        <x-import component-from-global-scope="TBKDesignSystem_f48b61.Alert" variant="info" title="Angka selalu font-mono tabular-nums" hint-size="auto,auto">
-          <div style="display:flex;gap:24px;margin-top:8px;align-items:baseline">
-            <div><div style="font-size:var(--text-xs);color:var(--muted-foreground);margin-bottom:2px">Salah</div><div style="font-family:var(--font-sans);font-size:var(--text-lg)">Rp 1.250.000</div></div>
-            <div><div style="font-size:var(--text-xs);color:var(--muted-foreground);margin-bottom:2px">Benar</div><div style="font-family:var(--font-mono);font-variant-numeric:tabular-nums;font-size:var(--text-lg)">Rp 1.250.000</div></div>
+
+        <div style="font-size:var(--text-lg);font-weight:600;margin:28px 0 4px">Keluarga font</div>
+        <div style="font-size:var(--text-sm);color:var(--muted-foreground);margin-bottom:16px">Dua keluarga, tidak lebih. Berat tipografi yang membedakan hierarki, bukan pergantian huruf.</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:32px">
+          <div style="border:1px solid var(--border);border-radius:var(--radius-lg);padding:20px">
+            <div style="font-family:'Geist',sans-serif;font-size:1.75rem;font-weight:700;margin-bottom:4px">Geist Variable</div>
+            <div style="font-size:var(--text-sm);color:var(--muted-foreground);margin-bottom:10px">Sans, satu keluarga untuk seluruh teks UI — judul, body, label. Tidak ada serif, tidak ada display face.</div>
+            <div style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--muted-foreground)">font-sans · dipakai di semua elemen kecuali angka/kode</div>
           </div>
-        </x-import>
-        <div style="font-size:var(--text-lg);font-weight:600;margin:32px 0 12px">Unduh font</div>
+          <div style="border:1px solid var(--border);border-radius:var(--radius-lg);padding:20px">
+            <div style="font-family:'Geist Mono',monospace;font-size:1.75rem;font-weight:600;margin-bottom:4px">Geist Mono</div>
+            <div style="font-size:var(--text-sm);color:var(--muted-foreground);margin-bottom:10px">Monospace, khusus angka, ID, mata uang, dan blok kode — supaya digit sejajar dan mudah dipindai.</div>
+            <div style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--muted-foreground)">font-mono tabular-nums · angka &amp; kode</div>
+          </div>
+        </div>
+
+        <div style="font-size:var(--text-lg);font-weight:600;margin:0 0 4px">Skala &amp; hierarki</div>
+        <div style="font-size:var(--text-sm);color:var(--muted-foreground);margin-bottom:16px">Delapan tingkat, dari judul halaman sampai keterangan terkecil. Urutan di bawah adalah urutan hierarki visual — semakin ke bawah, semakin kecil bobotnya.</div>
+        <div style="display:flex;flex-direction:column;gap:20px;margin-bottom:16px">
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;border-bottom:1px solid var(--border);padding-bottom:16px"><div style="font-size:2.5rem;font-weight:800;letter-spacing:-0.02em">Desain yang konsisten</div><span style="text-align:right;flex-shrink:0"><span style="display:inline-block;font-family:var(--font-mono);font-size:var(--text-xs);color:var(--foreground);background:var(--secondary);border-radius:var(--radius-sm);padding:1px 6px;margin-right:6px">h1</span><span style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--muted-foreground)">text-4xl · 40px / lh 44px</span></span></div>
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;border-bottom:1px solid var(--border);padding-bottom:16px"><div style="font-size:1.875rem;font-weight:700;letter-spacing:-0.02em">Desain yang konsisten</div><span style="text-align:right;flex-shrink:0"><span style="display:inline-block;font-family:var(--font-mono);font-size:var(--text-xs);color:var(--foreground);background:var(--secondary);border-radius:var(--radius-sm);padding:1px 6px;margin-right:6px">h2</span><span style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--muted-foreground)">text-3xl · 30px / lh 36px</span></span></div>
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;border-bottom:1px solid var(--border);padding-bottom:16px"><div style="font-size:1.5rem;font-weight:600;letter-spacing:-0.01em">Desain yang konsisten — page title</div><span style="text-align:right;flex-shrink:0"><span style="display:inline-block;font-family:var(--font-mono);font-size:var(--text-xs);color:var(--foreground);background:var(--secondary);border-radius:var(--radius-sm);padding:1px 6px;margin-right:6px">h3</span><span style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--muted-foreground)">text-2xl · 24px / lh 32px — font-semibold tracking-tight</span></span></div>
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;border-bottom:1px solid var(--border);padding-bottom:16px"><div style="font-size:1.125rem;font-weight:600">Desain yang konsisten — section title</div><span style="text-align:right;flex-shrink:0"><span style="display:inline-block;font-family:var(--font-mono);font-size:var(--text-xs);color:var(--foreground);background:var(--secondary);border-radius:var(--radius-sm);padding:1px 6px;margin-right:6px">h4</span><span style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--muted-foreground)">text-xl · 18px / lh 28px — font-semibold</span></span></div>
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;border-bottom:1px solid var(--border);padding-bottom:16px"><div style="font-size:1rem">Desain yang konsisten</div><span style="text-align:right;flex-shrink:0"><span style="display:inline-block;font-family:var(--font-mono);font-size:var(--text-xs);color:var(--foreground);background:var(--secondary);border-radius:var(--radius-sm);padding:1px 6px;margin-right:6px">h5 / h6</span><span style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--muted-foreground)">text-lg · 16px / lh 24px</span></span></div>
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;border-bottom:1px solid var(--border);padding-bottom:16px"><div style="font-size:0.875rem">Desain yang konsisten — body</div><span style="text-align:right;flex-shrink:0"><span style="display:inline-block;font-family:var(--font-mono);font-size:var(--text-xs);color:var(--foreground);background:var(--secondary);border-radius:var(--radius-sm);padding:1px 6px;margin-right:6px">p</span><span style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--muted-foreground)">text-base · 14px / lh 20px</span></span></div>
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;border-bottom:1px solid var(--border);padding-bottom:16px"><div style="font-size:0.8125rem;color:var(--muted-foreground)">Desain yang konsisten — secondary</div><span style="text-align:right;flex-shrink:0"><span style="display:inline-block;font-family:var(--font-mono);font-size:var(--text-xs);color:var(--foreground);background:var(--secondary);border-radius:var(--radius-sm);padding:1px 6px;margin-right:6px">span</span><span style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--muted-foreground)">text-sm · 13px / lh 18px — text-muted-foreground</span></span></div>
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;padding-bottom:4px"><div style="font-size:0.75rem;color:var(--muted-foreground)">Desain yang konsisten — caption</div><span style="text-align:right;flex-shrink:0"><span style="display:inline-block;font-family:var(--font-mono);font-size:var(--text-xs);color:var(--foreground);background:var(--secondary);border-radius:var(--radius-sm);padding:1px 6px;margin-right:6px">small</span><span style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--muted-foreground)">text-xs · 12px / lh 16px</span></span></div>
+        </div>
+        <div style="font-size:var(--text-xs);color:var(--muted-foreground);margin-bottom:32px">Rasio baris (lh) selalu di atas 1 — jangan dikecilkan untuk merapatkan tampilan, itu yang membuat paragraf terasa sesak.</div>
+
+        <div style="font-size:var(--text-lg);font-weight:600;margin:0 0 12px">Kapan dipakai / kapan tidak</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:32px">
+          <x-import component-from-global-scope="TBKDesignSystem_f48b61.Card" title="Pakai" hint-size="auto,auto"><ul style="margin:0;padding-left:18px;font-size:var(--text-sm);line-height:var(--leading-relaxed)"><li>h3 (text-2xl) hanya untuk judul halaman, satu per halaman.</li><li>h4 (text-lg) untuk judul tiap bagian dalam satu halaman.</li><li>font-mono tabular-nums untuk semua angka: harga, tanggal numerik, ID, statistik.</li></ul></x-import>
+          <x-import component-from-global-scope="TBKDesignSystem_f48b61.Card" title="Jangan" hint-size="auto,auto"><ul style="margin:0;padding-left:18px;font-size:var(--text-sm);line-height:var(--leading-relaxed)"><li>Melompati tingkat (h3 langsung ke h5) hanya karena ukurannya "pas".</li><li>Mengubah warna/berat teks di luar --foreground dan --muted-foreground untuk menandakan hierarki.</li><li>Menulis angka dengan font-sans — digitnya tidak sejajar dan sulit dipindai di kolom tabel.</li></ul></x-import>
+        </div>
+
+        <div style="font-size:var(--text-lg);font-weight:600;margin:0 0 12px">Angka selalu font-mono tabular-nums</div>
+        <x-import component-from-global-scope="TBKDesignSystem_f48b61.Alert" variant="info" title="Kenapa ini penting" hint-size="auto,auto">Digit proporsional (font-sans) melebar berbeda-beda per angka, membuat kolom angka di tabel bergeser dan sulit dibandingkan sekilas. tabular-nums mengunci lebar tiap digit.</x-import>
+        <div style="display:flex;gap:24px;margin:12px 0 32px;align-items:baseline">
+          <div><div style="font-size:var(--text-xs);color:var(--muted-foreground);margin-bottom:2px">Salah — font-sans</div><div style="font-family:var(--font-sans);font-size:var(--text-lg)">Rp 1.250.000</div></div>
+          <div><div style="font-size:var(--text-xs);color:var(--muted-foreground);margin-bottom:2px">Benar — font-mono tabular-nums</div><div style="font-family:var(--font-mono);font-variant-numeric:tabular-nums;font-size:var(--text-lg)">Rp 1.250.000</div></div>
+        </div>
+
+        <div style="font-size:var(--text-lg);font-weight:600;margin:0 0 12px">Unduh font</div>
         <div style="display:flex;gap:24px;font-size:var(--text-sm)">
           <a href="https://fonts.google.com/specimen/Geist" target="_blank" rel="noopener">Geist Variable (Google Fonts) ↗</a>
           <a href="https://fonts.google.com/specimen/Geist+Mono" target="_blank" rel="noopener">Geist Mono (Google Fonts) ↗</a>
@@ -1716,6 +1783,36 @@ Figma: ${'{{FIGMA_URL}}'}. Detail penuh ada di halaman Aturan penggunaan dan Pen
   copyLogomark = (e) => this.performCopy(this.logomarkSvgText, 'logomark', true, e.currentTarget);
   copyLogomarkWhite = (e) => this.performCopy(this.logomarkWhiteSvgText, 'logomark-white', true, e.currentTarget);
   copyLogomarkBlack = (e) => this.performCopy(this.logomarkBlackSvgText, 'logomark-black', true, e.currentTarget);
+  downloadLogo = (svgText, filename, fmt) => {
+    const save = (blob, ext) => {
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url; a.download = filename + '.' + ext;
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+    };
+    const svgBlob = new Blob([svgText], { type: 'image/svg+xml' });
+    if (fmt === 'svg') { save(svgBlob, 'svg'); return; }
+    const img = new Image();
+    const url = URL.createObjectURL(svgBlob);
+    img.onload = () => {
+      const scale = 4;
+      const w = (img.naturalWidth || 600) * scale, h = (img.naturalHeight || 160) * scale;
+      const c = document.createElement('canvas'); c.width = w; c.height = h;
+      c.getContext('2d').drawImage(img, 0, 0, w, h);
+      URL.revokeObjectURL(url);
+      c.toBlob(b => b && save(b, 'png'), 'image/png');
+    };
+    img.src = url;
+  };
+  downloadLogoFullSvg = () => this.downloadLogo(this.logoFullSvgText, 'tbk-logotype', 'svg');
+  downloadLogoFullPng = () => this.downloadLogo(this.logoFullSvgText, 'tbk-logotype', 'png');
+  downloadLogomarkSvg = () => this.downloadLogo(this.logomarkSvgText, 'tbk-logomark', 'svg');
+  downloadLogomarkPng = () => this.downloadLogo(this.logomarkSvgText, 'tbk-logomark', 'png');
+  downloadLogomarkWhiteSvg = () => this.downloadLogo(this.logomarkWhiteSvgText, 'tbk-logomark-putih', 'svg');
+  downloadLogomarkWhitePng = () => this.downloadLogo(this.logomarkWhiteSvgText, 'tbk-logomark-putih', 'png');
+  downloadLogomarkBlackSvg = () => this.downloadLogo(this.logomarkBlackSvgText, 'tbk-logomark-hitam', 'svg');
+  downloadLogomarkBlackPng = () => this.downloadLogo(this.logomarkBlackSvgText, 'tbk-logomark-hitam', 'png');
   openDatePicker = () => this.setState({ datePickerOpen: true });
   closeDatePicker = () => this.setState({ datePickerOpen: false });
   selectDatePickerDay = (e) => {
@@ -1790,6 +1887,10 @@ Figma: ${'{{FIGMA_URL}}'}. Detail penuh ada di halaman Aturan penggunaan dan Pen
       onQueryChange: this.onQueryChange,
       copyValue: this.copyValue,
       copyLogoFull: this.copyLogoFull, copyLogomark: this.copyLogomark, copyLogomarkWhite: this.copyLogomarkWhite, copyLogomarkBlack: this.copyLogomarkBlack,
+      downloadLogoFullSvg: this.downloadLogoFullSvg, downloadLogoFullPng: this.downloadLogoFullPng,
+      downloadLogomarkSvg: this.downloadLogomarkSvg, downloadLogomarkPng: this.downloadLogomarkPng,
+      downloadLogomarkWhiteSvg: this.downloadLogomarkWhiteSvg, downloadLogomarkWhitePng: this.downloadLogomarkWhitePng,
+      downloadLogomarkBlackSvg: this.downloadLogomarkBlackSvg, downloadLogomarkBlackPng: this.downloadLogomarkBlackPng,
       logoFullCopyIcon: this.state.copiedKey === 'logo-full' ? 'check' : 'copy',
       logomarkCopyIcon: this.state.copiedKey === 'logomark' ? 'check' : 'copy',
       logomarkWhiteCopyIcon: this.state.copiedKey === 'logomark-white' ? 'check' : 'copy',
